@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electron Screensaver Config</title>
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <!-- Any and all JS libraries must be loaded here -->
+    <script>if (window.module) module = window.module;</script>
+    <!-- Load your css here -->
+</head>
+<body>
+<h1 style="padding-left: 1%">Electron Screensaver Config</h1>
+<hr>
+<input id="showText" type="checkbox" onchange="updateSetting('showText', 'check')">
+<label> Show Text</label>
+<br>
+<label>Text: </label>
+<input id="text" type="text" onchange="updateSetting('text', 'text')">
+
+<!-- Load your js here -->
+<script src="config.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "electron-screensaver-template",
+  "version": "1.0.0",
+  "description": "A electron based screensaver template for Windows",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "author": "OrangeJedi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "electron-store": "^5.1.1"
+  }
+}
